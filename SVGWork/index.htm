@@ -1,0 +1,61 @@
+<!--
+    Author: Kaiser Slocum
+    Date: 3/23/2020
+    Description: Introduction to Using SVG with CSS3/HTML5
+    Comment: Does not do anything - need to learn how to connect svg file with html file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="designs.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="svgInlineStyles.css" >
+    <title>SVG Images within HTML</title>
+</head>
+<body>
+    <header>
+        <img src="gradients.svg" role="img" alt="Traffic light" />
+        <h1>Kaiser's SVG Practice</h1>
+    </header>
+    <form id="contactForm" method="post" >
+        <h1>How can we contact you?</h1>
+        <svg width="140" height="320" viewBox="20 20 140 320" preserveAspectRatio="xMinYMin meet" aria-label="stoplight" role="img" >
+        <defs>
+        <circle id="light" cx="70" r="30" />
+        </defs>
+        <rect x="20" y="20" width="100" height="280" fill="url(gradients.svg#metal) silver" stroke="black" stroke-width="3" />
+        <g stroke="black" stroke-width="2">            
+            <g class="yellow light">
+            <use xlink:href="#light" y="160" fill="url(gradients.svg#yellow-light-off) #705008"/>
+            <use class="lit" xlink:href="#light" y="160" fill="url(gradients.svg#yellow-light-on) yellow" />
+            </g>
+            <g class="red light" >
+            <use xlink:href="#light" y="80" fill="url(gradients.svg#red-light-off) maroon" />
+            <use class="lit" xlink:href="#light" y="80" fill="url(gradients.svg#red-light-on) red" visibility="hidden"/>
+            </g>
+            <g class="green light">
+            <use xlink:href="#light" y="240" fill="url(gradients.svg#green-light-off) #002804" />
+            <use class="lit" xlink:href="#light" y="240" fill="url(gradients.svg#green-light-on) lime" visibility="hidden"/>
+            </g>
+            </g>
+            </svg>
+            <label>
+            <input type="text" name="CustomerName" required />
+            Full Name
+            </label>
+            <label>
+            <input type="email" name="CustomerEmail" required />
+            Email Address
+            </label>
+            <button type="submit" >Send</button>
+            </form>
+<main>
+    <p>Main text goes here, but <em>WOW</em> look at that image in the header!</p>
+</main>
+</body>
+</html>
+
+
+
+
