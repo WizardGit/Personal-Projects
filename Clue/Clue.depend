@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1577065166 source:c:\users\kaiser slocum\desktop\clue\main.cpp
+	<iostream>
+	"Card.h"
+	"Game.h"
+	"Hand.h"
+	"LinkedList.h"
+	"Node.h"
+	"Player.h"
+
+1576451747 source:c:\users\kaiser slocum\desktop\clue\src\card.cpp
+	"Card.h"
+
+1561831224 c:\users\kaiser slocum\desktop\clue\include\card.h
+	<iostream>
+	<iomanip>
+	<stdexcept>
+	<sstream>
+	"LinkedList.h"
+
+1577064890 source:c:\users\kaiser slocum\desktop\clue\src\player.cpp
+	"Player.h"
+
+1576450887 c:\users\kaiser slocum\desktop\clue\include\player.h
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<sstream>
+	<limits>
+	"Card.h"
+	"Hand.h"
+
+1577064127 source:c:\users\kaiser slocum\desktop\clue\src\game.cpp
+	"Game.h"
+
+1577064127 c:\users\kaiser slocum\desktop\clue\include\game.h
+	"Player.h"
+	"Card.h"
+	"Hand.h"
+	<iostream>
+	<stdexcept>
+	<sstream>
+
+1563738027 c:\users\kaiser slocum\desktop\clue\include\hand.h
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<sstream>
+	"Card.h"
+
+1577064981 source:c:\users\kaiser slocum\desktop\clue\src\hand.cpp
+	"Hand.h"
+
+1560020994 source:c:\users\kaiser slocum\desktop\clue\src\usagestatus.cpp
+	"UsageStatus.h"
+
+1560022220 c:\users\kaiser slocum\desktop\clue\include\usagestatus.h
+	<iostream>
+	<stdexcept>
+	<sstream>
+	"Node.h"
+
+1560052220 source:c:\users\kaiser slocum\desktop\clue\src\node.cpp
+	"Node.h"
+
+1560052220 c:\users\kaiser slocum\desktop\clue\include\node.h
+
+1561052918 c:\users\kaiser slocum\desktop\clue\include\linkedlist.h
+	"Node.h"
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1561052816 source:c:\users\kaiser slocum\desktop\clue\src\linkedlist.cpp
+	"LinkedList.h"
+
+1562722001 source:c:\users\kaiser slocum\desktop\clue\src\masterplayer.cpp
+	"MasterPlayer.h"
+
+1562722001 c:\users\kaiser slocum\desktop\clue\include\masterplayer.h
+	"Player.h"
+	"Hand.h"
+	<iostream>
+
+1561843816 source:h:\clue\main.cpp
+	<iostream>
+	"Card.h"
+	"Game.h"
+	"Hand.h"
+	"LinkedList.h"
+	"MasterPlayer.h"
+	"Node.h"
+	"Player.h"
+
+1561834824 h:\clue\include\card.h
+	<iostream>
+	<iomanip>
+	<stdexcept>
+	<sstream>
+	"LinkedList.h"
+
+1561056518 h:\clue\include\linkedlist.h
+	"Node.h"
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1560055820 h:\clue\include\node.h
+
+1560469934 h:\clue\include\game.h
+	"Player.h"
+	"MasterPlayer.h"
+	"Card.h"
+	"Hand.h"
+	<iostream>
+	<stdexcept>
+	<sstream>
+
+1561830432 h:\clue\include\player.h
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<sstream>
+	<limits>
+	"Card.h"
+	"Hand.h"
+
+1561057118 h:\clue\include\hand.h
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<sstream>
+	"Card.h"
+
+1560469934 h:\clue\include\masterplayer.h
+	"Player.h"
+	"Hand.h"
+	<iostream>
+
+1561834824 source:h:\clue\src\card.cpp
+	"Card.h"
+
+1561845740 source:h:\clue\src\game.cpp
+	"Game.h"
+
+1561057108 source:h:\clue\src\hand.cpp
+	"Hand.h"
+
+1561056416 source:h:\clue\src\linkedlist.cpp
+	"LinkedList.h"
+
+1560469934 source:h:\clue\src\masterplayer.cpp
+	"MasterPlayer.h"
+
+1560055820 source:h:\clue\src\node.cpp
+	"Node.h"
+
+1561835216 source:h:\clue\src\player.cpp
+	"Player.h"
+
+1577068766 source:c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\main.cpp
+	<iostream>
+	"Card.h"
+	"Game.h"
+	"Hand.h"
+	"LinkedList.h"
+	"Node.h"
+	"Player.h"
+
+1561834824 c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\include\card.h
+	<iostream>
+	<iomanip>
+	<stdexcept>
+	<sstream>
+	"LinkedList.h"
+
+1561056518 c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\include\linkedlist.h
+	"Node.h"
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1560055820 c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\include\node.h
+
+1577067727 c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\include\game.h
+	"Player.h"
+	"Card.h"
+	"Hand.h"
+	<iostream>
+	<stdexcept>
+	<sstream>
+
+1576454487 c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\include\player.h
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<sstream>
+	<limits>
+	"Card.h"
+	"Hand.h"
+
+1563741627 c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\include\hand.h
+	<iostream>
+	<stdexcept>
+	<iomanip>
+	<sstream>
+	"Card.h"
+
+1576455347 source:c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\src\card.cpp
+	"Card.h"
+
+1577068581 source:c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\src\hand.cpp
+	"Hand.h"
+
+1561056416 source:c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\src\linkedlist.cpp
+	"LinkedList.h"
+
+1560055820 source:c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\src\node.cpp
+	"Node.h"
+
+1577068490 source:c:\users\kaiser slocum\documents\kaiser documents\techno files and apps\c++ projects\clue\src\player.cpp
+	"Player.h"
+
